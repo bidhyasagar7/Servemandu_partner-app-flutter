@@ -9,7 +9,7 @@ namespace {
 constexpr const wchar_t kWindowClassName[] = L"FLUTTER_RUNNER_WIN32_WINDOW";
 
 // The number of Win32Window objects that currently exist.
-static int g_active_window_count = 0;
+ static int g_active_window_count = 0;
 
 using EnableNonClientDpiScaling = BOOL __stdcall(HWND hwnd);
 
@@ -30,7 +30,7 @@ void EnableFullDpiSupportIfAvailable(HWND hwnd) {
       reinterpret_cast<EnableNonClientDpiScaling*>(
           GetProcAddress(user32_module, "EnableNonClientDpiScaling"));
   if (enable_non_client_dpi_scaling != nullptr) {
-    enable_non_client_dpi_scaling(hwnd);
+     enable_non_client_dpi_scaling(hwnd);
     FreeLibrary(user32_module);
   }
 }

@@ -15,7 +15,7 @@ class FlutterWindow : public Win32Window {
   explicit FlutterWindow(const flutter::DartProject& project);
   virtual ~FlutterWindow();
 
- protected:
+  protected:
   // Win32Window:
   bool OnCreate() override;
   void OnDestroy() override;

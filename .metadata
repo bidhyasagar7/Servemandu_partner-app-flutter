@@ -9,7 +9,7 @@ version:
 
 project_type: app
 
-# Tracks metadata for the flutter migrate command
+# Tracks  metadata for the flutter migrate command
 migration:
   platforms:
     - platform: root
@@ -31,7 +31,7 @@ migration:
       create_revision: 135454af32477f815a7525073027a3ff9eff1bfd
       base_revision: 135454af32477f815a7525073027a3ff9eff1bfd
     - platform: windows
-      create_revision: 135454af32477f815a7525073027a3ff9eff1bfd
+       create_revision: 135454af32477f815a7525073027a3ff9eff1bfd
       base_revision: 135454af32477f815a7525073027a3ff9eff1bfd
 
   # User provided section

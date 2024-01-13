@@ -18,7 +18,7 @@ class Win32Window {
     Point(unsigned int x, unsigned int y) : x(x), y(y) {}
   };
 
-  struct Size {
+   struct Size {
     unsigned int width;
     unsigned int height;
     Size(unsigned int width, unsigned int height)
